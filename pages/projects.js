@@ -8,7 +8,7 @@ import madlibPic from '../public/images/madlib.png'
 const projects = () => {
 	return (
 		<div className="columns">
-			<div className="column">
+			<div className="column is-four-fifths">
 				<h3>
 					<a href="https://maplearn.herokuapp.com/">Map Learn</a>
 				</h3>
@@ -16,9 +16,9 @@ const projects = () => {
 					<Image
 						src={maplearnPic}
 						alt="Picture of the Map Learn website"
-						// width={800}
-						// height={500}
-						layout="responsive"
+						width={900}
+						height={500}
+						layout="intrinsic"
 					/>
 				</a>
 			</div>
