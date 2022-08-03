@@ -10,7 +10,7 @@
   left: 0;
   justify-content: flex-end;
  font-size: 2rem;
- padding: 6vw;
+ padding: 1vw;
  opacity: 100%;
 }
 
@@ -23,4 +23,42 @@
 .nav > ul :hover {
   opacity: 70%;
   transition: .7s;
+}
+
+
+@media (max-width: 910px) {
+  .navContainer .menu {
+    display: flex;
+  }
+
+  .navContainer ul {
+    --height: 0px;
+
+    flex-direction: column;
+    background: var(--nav-bg);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 56px;
+    height: var(--height);
+    transition: 1s cubic-bezier(.68,-0.55,.27,1.55);
+  }
+  .navContainer ul.active {
+    --height: calc(
+      (((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber)
+    );
+    /*   (Block Level Padding + The Font Size) * The Number of Children   */
+    
+    
+    transition: 1s ease;
+  }
+
+  .navContainer ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .navContainer ul li a {
+    width: 100%;
+    text-transform: capitalize;
+  }
 }

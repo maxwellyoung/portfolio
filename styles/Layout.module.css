@@ -31,7 +31,9 @@
 }
 
 
-
+.projects {
+  width: 80vw;
+}
 
 .code {
   background: #fafafa;
