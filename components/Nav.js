@@ -13,6 +13,9 @@ const Nav = () => {
 				<li>
 					<Link href="/projects">Projects</Link>
 				</li>
+				<li>
+					<Link href="/resume.pdf">Resume</Link>
+				</li>
 			</ul>
 		</nav>
 	)
