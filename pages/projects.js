@@ -4,13 +4,16 @@ import maplearnPic from '../public/images/maplearn1.png'
 import imdbPic from '../public/images/imdb.png'
 import favMoviesPic from '../public/images/favmovies.png'
 import madlibPic from '../public/images/madlib.png'
+import pianoPic from '../public/images/piano.png'
 
 const projects = () => {
 	return (
 		<div className="columns">
 			<div className="column is-four-fifths">
 				<h3>
-					<a href="https://maplearn.herokuapp.com/">Map Learn</a>
+					<a className="subtitle is-5" href="https://maplearn.herokuapp.com/">
+						Map Learn
+					</a>
 				</h3>
 				<a href="https://maplearn.herokuapp.com/">
 					<Image
@@ -24,7 +27,12 @@ const projects = () => {
 			</div>
 			<div className="column">
 				<h3>
-					<a href="https://maxwell-imdb.herokuapp.com/">iMDB Api</a>
+					<a
+						className="subtitle is-5"
+						href="https://maxwell-imdb.herokuapp.com/"
+					>
+						iMDB Api
+					</a>
 				</h3>
 				<a href="https://maxwell-imdb.herokuapp.com/">
 					<Image
@@ -36,7 +44,24 @@ const projects = () => {
 			</div>
 			<div className="column">
 				<h3>
-					<a href="https://maxwells-favourite-movies.herokuapp.com/">
+					<a className="subtitle is-5" href="">
+						Piano
+					</a>
+				</h3>
+				<a href="">
+					<Image
+						src={pianoPic}
+						alt="Picture of the piano website"
+						layout="responsive"
+					/>
+				</a>
+			</div>
+			<div className="column">
+				<h3>
+					<a
+						className="subtitle is-5"
+						href="https://maxwells-favourite-movies.herokuapp.com/"
+					>
 						Favourite Movies
 					</a>
 				</h3>
@@ -50,7 +75,12 @@ const projects = () => {
 			</div>
 			<div className="column">
 				<h3>
-					<a href="https://friday-madlib.herokuapp.com/">Mad Libs</a>
+					<a
+						className="subtitle is-5"
+						href="https://friday-madlib.herokuapp.com/"
+					>
+						Mad Libs
+					</a>
 				</h3>
 				<a href="https://friday-madlib.herokuapp.com/">
 					<Image
