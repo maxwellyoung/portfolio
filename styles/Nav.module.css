@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 1%;
+  font-weight: 200;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  justify-content: flex-end;
+ font-size: 2rem;
+ padding: 6vw;
+ opacity: 100%;
+}
+
+.nav > ul {
+  text-transform: uppercase;
+  list-style-type: none; 
+  flex-direction: column;
+}
+
+.nav > ul :hover {
+  opacity: 70%;
+  transition: .7s;
+}
