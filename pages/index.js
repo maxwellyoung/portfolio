@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import profilePic from '../public/images/profile.jpg'
 
 export default function Home() {
 	return (
@@ -10,11 +11,9 @@ export default function Home() {
 			</Head>
 			<div className="center">
 				<Image
-					src="/images/profile.jpg"
+					src={profilePic}
 					alt="Picture of the author"
-					width={300}
-					height={500}
-					layout="intrinsic"
+					layout="responsive"
 					className="profile"
 				/>
 				<h2>

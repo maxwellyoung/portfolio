@@ -18,6 +18,9 @@ a {
 
 .center {
   width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (prefers-color-scheme: dark) {

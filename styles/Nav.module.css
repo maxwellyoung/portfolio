@@ -12,6 +12,7 @@
  font-size: 2rem;
  padding: 1vw;
  opacity: 100%;
+ text-align: end;
 }
 
 .nav > ul {
