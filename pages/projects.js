@@ -10,6 +10,9 @@ const projects = () => {
 	return (
 		<div className="columns">
 			<div className="column is-four-fifths">
+				<h3 className="title">More work in progress...</h3>
+			</div>
+			<div className="column is-four-fifths">
 				<h3>
 					<a className="subtitle is-5" href="https://maplearn.herokuapp.com/">
 						Map Learn
