@@ -44,11 +44,14 @@ const projects = () => {
 			</div>
 			<div className="column">
 				<h3>
-					<a className="subtitle is-5" href="">
+					<a
+						className="subtitle is-5"
+						href="https://browser-piano.herokuapp.com/"
+					>
 						Piano
 					</a>
 				</h3>
-				<a href="">
+				<a href="https://browser-piano.herokuapp.com/">
 					<Image
 						src={pianoPic}
 						alt="Picture of the piano website"
